@@ -30,7 +30,7 @@ bool askContinue() {
             return true;
         }
         if (playerAnswer == "N" || playerAnswer == "n" || playerAnswer == "No") {
-            std::println("Le jeu est termine");
+            std::println("Le jeu est termine.");
             return false;
         }
 
